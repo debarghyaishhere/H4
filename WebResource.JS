@@ -513,10 +513,6 @@ function WebForm_SetElementWidth(element, width) {
         element.style.width = width + "px";
     }
 }
-function WebForm_SetElementX(element, x) {
-    if (element && element.style) {
-        element.style.left = x + "px";
-    }
 }
 function WebForm_SetElementY(element, y) {
     if (element && element.style) {
